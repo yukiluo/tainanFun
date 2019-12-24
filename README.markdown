@@ -1,2 +1,3 @@
 # 台南旅遊資訊網
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/yukiluo/pen/ExaNdmK](https://codepen.io/yukiluo/pen/ExaNdmK).
+ _A Pen created at CodePen.io.
+ _DEMO HERE: https://yukiluo.github.io/tainanFun/
