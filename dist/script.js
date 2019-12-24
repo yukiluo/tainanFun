@@ -10,7 +10,7 @@ var allData = '';
 function getSiteData(){
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET','../data/siteData.json',true);
+    xhr.open('GET','./data/siteData.json',true);
     xhr.send(null);
     // xhr事件onload 確定資料有回傳後才觸發 function
     xhr.onload = function(){
@@ -67,7 +67,7 @@ select.addEventListener('change',getDistrict,false);
     str +=
     '<div class="col-md-4" id="col">'+
     '<div class="card">'+
-      '<img class="card-img-top" src="../img/default.jpg" alt="Card image cap">'+
+      '<img class="card-img-top" src="./img/default.jpg" alt="Card image cap">'+
       '<div class="card-body">'+
         '<h5 class="card-title">'+array[i].name+'</h5>'+
         '<p class="card-text"><i class="fa fa-clock-o"></i> '+array[i].OpenTime+'</p>'+
