@@ -1,0 +1,187 @@
+*{
+  position: relative;
+  box-sizing: border-box; /* padding or margin */
+  margin: 0;
+  padding: 0;
+/*  border: 1px solid black !important;*/
+}
+body{
+  font-family: "微軟正黑體";
+  color: white;
+/*   letter-spacing: 2px; */
+  background-color: #fff;
+}
+header{
+  width: 100%;
+  height: 380px;
+/*   position: absolute;
+  margin: auto;
+  top: 0; */
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  text-align: center !important;
+  align-items: center!important;
+  justify-content: center!important;
+  background: url('../img/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1{
+  letter-spacing: 3.89px;
+  color: white;
+  margin-bottom: 30px;
+/*  position: absolute;  looking for a better way
+  top: 89px;
+  left: 380.5px;*/
+}
+select#district{
+  width: 452px;
+  height: 48px;
+  background: rgba(255,255,255,0.70);
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+/*  position: absolute;
+  top: 225px; 
+  left: 293px;*/
+}
+.famous{
+  display: block;
+  background-color: #fff;
+/*  width: 800px;
+  height: 112px;*/
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -50px;
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+  margin-top: .5rem!important;  /* mt-2*/
+/*  top: 352px;
+  left: 112px;
+  right: 112px;*/
+}
+.famous p{
+  display: block;
+  color: black;
+/*  position: absolute;
+  top: 20px;
+  left: 26px;*/
+}
+input.btn{
+  width: 130px;
+  height: 42px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+/*  margin-top: 52px;
+  margin-right: 23px;*/
+}
+input#btn1{
+/*  margin-left: 51px;*/
+  background: #9B421C;
+}
+input#btn2{
+  background: #B4DDE5;
+}
+input#btn3{
+  background: #C5B1A6;
+}
+input#btn4{
+  background: #C23912;
+}
+
+section{
+  display: block;
+}
+
+/* bootstrap container 自動設定*/
+section.container{
+ /* width:100%;
+  margin: 1.5rem !important; *//*mt-4*/
+/*  margin-right: auto;
+  margin-left: auto;*/
+  text-align: center;
+  color: black;
+}
+
+section.content{
+  padding: 80px 0;
+}
+
+h3.title{
+  color: #D7AE88;
+  margin-bottom: 40px;
+  text-align: center !important;
+}
+
+.list{
+  text-align: left;
+}
+
+.card img.card-img-top{
+  width: 100%;
+  height: 200px;
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+}
+
+.card-body h5.card-title{
+  text-align: center
+}
+/*
+hr#line{
+  border: 1px dashed #D7AE88;
+  width: 900px;
+
+  position: absolute;
+  margin-top: 133px;
+  margin-left: 62px;
+}
+hr#line::after{
+  display: inline-block;
+}
+*/
+/*  */
+footer{
+  background: #A2D5E7;
+  height: 90px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+  color: #A08168;
+}
+footer p#second{
+  font-size: 14px;
+  color: #D86646;
+}
+
+/* RWD */
+@media screen and (max-width: 585px) {
+  header h1{
+    font-size: 30px;
+  }
+  
+  select#district{
+    width: 150px;
+    height: 48px;
+  }
+
+  input.btn{
+    width: 60px;
+    height: 42px;
+    font-size: 12px;
+  }
+}
+
+/*@media screen and (max-width: 992px){
+   #col {
+      flex: 0 0 50%;
+      max-width: 50%;
+   }
+}
+*/
